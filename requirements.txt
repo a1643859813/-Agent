@@ -1,0 +1,4 @@
+# Runtime uses only the Python standard library.
+# Optional, only for generating the design overview PDF:
+reportlab>=4.0
+

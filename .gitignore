@@ -1,0 +1,20 @@
+.env
+data/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Temporary render files and local Codex metadata
+tmp/
+.agents/
+
+# Local source materials and archived submission copies.
+# The GitHub repository keeps only the current implementation, tests,
+# configuration example, README, and supporting PDFs under output/pdf/.
+文档文件相关内容/
+第一版_文字记录/
+第一版_最小AgentRuntime/
+第二版_文字记录/
+提交版_光辰智能AgentRuntime/
+光辰智能_AgentRuntime_提交版.zip
+提交说明.md
