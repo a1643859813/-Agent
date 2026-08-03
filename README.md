@@ -69,6 +69,8 @@ python main.py
 
 ## 系统设计
 
+完整流程图见：[Agent Runtime 架构图](docs/架构图.md)。
+
 ### Agent Runtime 与工具循环
 
 `AgentRuntime.run()` 先占用目标 session，然后把用户消息写入该 session 的短期历史。每一轮根据当前 context 调用 `DeepSeekClient.chat()`：
